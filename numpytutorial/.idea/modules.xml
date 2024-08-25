@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../graphs/.idea/graphs.iml" filepath="$PROJECT_DIR$/../graphs/.idea/graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/numpytutorial.iml" filepath="$PROJECT_DIR$/.idea/numpytutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tkinter/.idea/tkinter.iml" filepath="$PROJECT_DIR$/../tkinter/.idea/tkinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trackthephone/.idea/trackthephone.iml" filepath="$PROJECT_DIR$/../trackthephone/.idea/trackthephone.iml" />
+    </modules>
+  </component>
+</project>

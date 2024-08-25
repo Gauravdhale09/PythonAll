@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Assistant/.idea/Assistant.iml" filepath="$PROJECT_DIR$/../Assistant/.idea/Assistant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Image process/.idea/Image process.iml" filepath="$PROJECT_DIR$/../Image process/.idea/Image process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Room book/.idea/Room book.iml" filepath="$PROJECT_DIR$/../Room book/.idea/Room book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appdev/.idea/appdev.iml" filepath="$PROJECT_DIR$/../appdev/.idea/appdev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../general/.idea/general.iml" filepath="$PROJECT_DIR$/../general/.idea/general.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../generated qr/.idea/generated qr.iml" filepath="$PROJECT_DIR$/../generated qr/.idea/generated qr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../graphs/.idea/graphs.iml" filepath="$PROJECT_DIR$/../graphs/.idea/graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../numpytutorial/.idea/numpytutorial.iml" filepath="$PROJECT_DIR$/../numpytutorial/.idea/numpytutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../object oriented/.idea/object oriented.iml" filepath="$PROJECT_DIR$/../object oriented/.idea/object oriented.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../robot/.idea/robot.iml" filepath="$PROJECT_DIR$/../robot/.idea/robot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tkinter.iml" filepath="$PROJECT_DIR$/.idea/tkinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../simple projects/.idea/trackthephone.iml" filepath="$PROJECT_DIR$/../simple projects/.idea/trackthephone.iml" />
+    </modules>
+  </component>
+</project>

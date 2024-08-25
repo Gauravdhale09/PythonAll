@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<body>
+    <h1>This is just a heading</h1>
+    {{students}}
+    
+    <ol type="I">
+        {% for stud in students %}
+        <li>{{stud}}</li>
+        {% endfor %}
+    </ol>
+</body>
+</html>
