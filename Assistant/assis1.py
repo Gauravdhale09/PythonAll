@@ -11,20 +11,20 @@ import pywhatkit as kt
 from time import strftime
 engine = pyttsx3.init('sapi5')
 model = Model(
-    r"C:\Users\gaura\PycharmProjects\robot\vosk-model-small-en-in-0.4")
+    r"vosk-model-small-en-in-0.4")
 recognizer = KaldiRecognizer(model, 16000)
 mic = pyaudio.PyAudio()
 stream = mic.open(format=pyaudio.paInt16, channels=1,
                   rate=16000, input=True, frames_per_buffer=8192)
 stream.start_stream()
 list1 = ["wordpad", "whatsapp", "brave", "excel", "microsoft store", "microsoft edge",
-         "microsoft office", "task manager", "file explorer", "word", "powerpoint", "calculator"]
+         "microsoft office", "task manager", "file explorer", "word", "powerpoint", "calculator",]
 
 
 def tell(i):
     voices = engine.getProperty('voices')
     engine.setProperty('language', 'en-in')
-    engine.setProperty('voice', voices[-5].id)
+    engine.setProperty('voice', voices[-2].id)
     engine.setProperty('rate', 130)
     engine.say(i)
     engine.runAndWait()
@@ -72,8 +72,7 @@ def hear(tex):
         if ("open" in tex) and (i in tex):
             tell("opening"+i)
             AppOpener.open(i)
-    for i in list1:
-        if ("close" in tex) and (i in tex):
+        elif ("close" in tex) and (i in tex):
             try:
                 AppOpener.close(i)
             except Exception as e:

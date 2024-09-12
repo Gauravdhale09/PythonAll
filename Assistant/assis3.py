@@ -20,10 +20,11 @@ class Auto:
         elif 22 > now.hour >= 17:
             print("Good Evening boss")
         print("Your assistant is on the way")
-        try:
-            import assis1
-        except Exception as e:
-            print(f"your assistant currently facing some problem, i think there is an {e}")
+        import assis1
+        # try:
+        #     import assis1
+        # except Exception as e:
+        #     print(f"your assistant currently facing some problem, i think there is an {e}")
     else:
         print("password incoreect")
         forgot = input("press f, if you forgot your password and want to retrieve=====")

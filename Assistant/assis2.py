@@ -7,9 +7,6 @@ from time import strftime
 from playsound import playsound
 
 class Assis2:
-
-
-
     def htime(self):
         string = strftime('%H:%M')
         now = datetime.datetime.now().time()

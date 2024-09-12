@@ -5,5 +5,5 @@ print(permt)
 for i in list(permt):
     print(i)
 comt = combinations_with_replacement([True , False],5)
-#for i in list(comt):
-    #print(i)
+for i in list(comt):
+    print(i)

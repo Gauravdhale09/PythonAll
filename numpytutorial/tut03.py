@@ -9,7 +9,7 @@ arr_1ds = np.arange(1,20,2) #two is the value of steps
 print(arr_1ds) #here integers values from 1 to 20  are in array with break of 2 points where 20 is excluded
 print("*****************************************************************")
 #2.linespace() :- for creating numeric sequences
-arr_1d_2 = np.linspace(1,5,8) #here 8=number of values we want
+arr_1d_2 = np.linspace(1.0,1.1,8) #here 8=number of values we want
 print(arr_1d_2)  #it gives random 8 values from 1 to 5
 print("*****************************************************************")
 #3.reshape:-it converts the 1d array into mutidimensional array

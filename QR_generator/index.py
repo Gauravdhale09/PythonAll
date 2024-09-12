@@ -26,6 +26,7 @@ def get_link():
     global link, name
     link = request.form.get('link_get')
     name = request.form.get('name_get')
+    print(link, name)
     x = requests.head(link)
     if x.status_code != 404:
         create_code(link)
@@ -40,7 +41,7 @@ def create_code(link):
         qr_code.save(file_location)
         print(file_location)
         get_alert_message()
-@app.route('/get-alert-message')
+# @app.route('/get-alert-message')
 def get_alert_message():
     global message
     message = ''
