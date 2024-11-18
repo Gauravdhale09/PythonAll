@@ -4,7 +4,7 @@ ones_array1d = np.ones((4), dtype=bool)
 print("1d array of 4 elements=",ones_array1d)
 print("*****************************************************************")
 #to make 2d array of m rows and n columns
-ones_array2d = np.ones((3,4), dtype=bool)
+ones_array2d = np.ones((3,), dtype=bool)
 print(ones_array2d)  #here m=3 and n=4
 print("*****************************************************************")
 #if we want integer datatype
