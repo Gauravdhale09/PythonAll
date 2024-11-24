@@ -6,7 +6,7 @@ df = pd.read_excel(file)
 df = df[4:7]
 print(df)
 sales = df['Sales']
-customers = df['Customer Name']
+customers = df['Order Date']
 
 cols = ['blue', 'green', 'yellow']
 
